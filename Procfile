@@ -1,0 +1,1 @@
+web: gunicorn Insaegtem.wsgi --log-file -
