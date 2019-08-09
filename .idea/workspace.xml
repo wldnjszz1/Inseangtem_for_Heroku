@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85464fd2-acde-4098-8767-1c877e4b8f5a" name="Default Changelist" comment="" />
+    <list default="true" id="85464fd2-acde-4098-8767-1c877e4b8f5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Insaegtem/Post/views/recentlyViewd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Insaegtem/Post/views/recentlyViewd.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1OmDPmB6AdEB6tCa72qTA6lxHi8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -28,6 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -90,6 +93,7 @@
       <workItem from="1565139993347" duration="3245000" />
       <workItem from="1565157795447" duration="121000" />
       <workItem from="1565343402960" duration="7527000" />
+      <workItem from="1565365205463" duration="7000" />
     </task>
     <servers />
   </component>
