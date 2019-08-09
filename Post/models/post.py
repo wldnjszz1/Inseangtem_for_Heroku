@@ -5,7 +5,7 @@ class Post(models.Model):
     user_id = models.ForeignKey('Auth.IstUser', null=False, related_name="posts", on_delete=models.CASCADE)
     image = models.ImageField(null=False) #default='../../media/image.jpg',
     description = models.TextField()
-    category1 = models.BooleanField(default=False)
+    category1 = models.BooleanField(default=False )
     category2 = models.BooleanField(default=False)
     category3 = models.BooleanField(default=False)
     category4 = models.BooleanField(default=False)
