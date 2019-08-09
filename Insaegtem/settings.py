@@ -20,10 +20,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '=0&i3c9u$sxp+%2781p8gp4alppff91!u50$iu@_$tr67kem4!'
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '=0&i3c9u$sxp+%2781p8gp4alppff91!u50$iu@_$tr67kem4!')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = bool( os.environ.get('DJANGO_DEBUG',True))
 
 ALLOWED_HOSTS = []
 
@@ -139,3 +139,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 AUTH_USER_MODEL = 'Auth.IstUser'
 SITE_ID = 1
 ACCOUNT_LOGOUT_ON_GET = True
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ]
+}
